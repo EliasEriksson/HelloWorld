@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="helloworld",
+    name="HelloWorld",
     version="1.0",
-    packages=["helloworld"],
+    packages=find_packages(),
 )
